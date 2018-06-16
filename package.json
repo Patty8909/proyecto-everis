@@ -1,17 +1,25 @@
 {
-  "name": "api-rest",
+  "name": "mongoose-tutorial",
   "version": "1.0.0",
-  "description": "",
-  "main": "server.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
-  },
-  "author": "wendy tamara",
-  "license": "ISC",
+  "description": "Tutorial de mongoose con express",
+  "main": "app.js",
   "dependencies": {
-    "express": "^4.16.3",
-    "mongodb": "^3.0.10",
-    "mongojs": "^2.6.0"
-  }
+    "body-parser": "^1.15.2",
+    "express": "^4.13.4",
+    "mongoose": "^4.5.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "express",
+    "tutorial",
+    "hola",
+    "mundo",
+    "mongoose",
+    "mongodb"
+  ],
+  "author": "wendy",
+  "license": "ISC"
 }
